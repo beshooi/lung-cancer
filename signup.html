@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@1&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@500&family=Mochiy+Pop+One&family=Nunito:wght@200;400&family=Qwitcher+Grypen:wght@700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/all.min.css">
+
+    <link rel="stylesheet" href="css/login.css">
+
+    <title>signup</title>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg  " style="background-color: var(--sec-color);">
+    <div class="container ">
+        <div class="logo d-flex gap-2 justify-content-start align-items-center" >
+            <i class="zoom fa-solid fa-lungs-virus  fs-1" style="color: var(--wr-color);"></i>
+    
+            <a class="navbar-brand col-1 " href="#" style="width: fit-content;">
+            <p class="fw-bold  " style="margin: 0; color: var(--blue-color);">Lung Cancer Prediction</p>      </a>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main" aria-controls="main" aria-expanded="false" aria-label="Toggle navigation" style="    color: black;border: 1px solid black; box-shadow: none;">
+            <i class="fa-solid fa-bars"></i>      </button>
+        <div class="collapse navbar-collapse " id="main">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item ">
+            <a class="nav-link p-2 p-lg-3  " aria-current="page" href="./lung.html">Home</a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link p-2 p-lg-3  " aria-current="page" href="./lung.html">services</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link p-2 p-lg-3" href="./lung.html">Team</a>
+    
+            </li>
+            <li class="nav-item">
+            <a class="nav-link p-2 p-lg-3" href="./lung.html">Diagnosis</a>
+
+            </li>
+            
+            <li class="nav-item">
+            <a class="nav-link p-2 p-lg-3" href="./lung.html">History</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link p-2 p-lg-3" href="./lung.html">Profile</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link p-2 p-lg-3" href="./lung.html">about</a>
+
+
+            </li>
+            <li class="nav-item">
+            <a class="nav-link p-2 p-lg-3" href="./lung.html">contact</a>
+            </li>
+        </ul>
+        <div class="search ps-3 pe-3 d-none d-lg-block">
+            <i class="fa-brands fa-searchengin"></i>
+        </div>
+        <a href="./login.html" class="btn rounded-pill main-btn  ">login</a>
+        </div>
+    </div>
+    </nav>
+<div class="signup pt-5">
+    <div class="container">
+        <div class="sign-up">
+            <form class="row g-3">
+                <div class="col-md-6">
+                    <label for="firstName" class="form-label " style="color: white;">FirstName</label>
+                    <input type="text" class="form-control bg-transparent " id="firstName" style="color: white;">
+                    </div>
+                    <div class="col-md-6">
+                    <label for="lastName" class="form-label" style="color: white;">lastName</label>
+                    <input type="text" class="form-control bg-transparent" id="lastName" style="color: white;">
+                    </div>
+                <div class="col-md-6">
+                    <label for="inputEmail4" class="form-label" style="color: white;">Email</label>
+                    <input type="email" class="form-control bg-transparent" id="inputEmail4" style="color: white;">
+                </div>
+                <div class="col-md-6">
+                    <label for="inputPassword4" class="form-label" style="color: white;">Password</label>
+                    <input type="password" class="form-control bg-transparent" id="inputPassword4" style="color: white;">
+                </div>
+                <div class="col-12">
+                    <label for="inputAddress" class="form-label" style="color: white;">Address</label>
+                    <input type="text" class="form-control bg-transparent" id="inputAddress" placeholder="1234 Main St" style="color: white;">
+                </div>
+                
+                <div class="col-md-6">
+                    <label for="inputCity" class="form-label"style="color: white;">City</label>
+                    <input type="text" class="form-control bg-transparent" id="inputCity" style="color: white;">
+                </div>
+                <div class="col-md-4">
+                    <label for="inputState" class="form-label" style="color: white;">Gender</label>
+                    <select id="inputState" class="form-select bg-transparent" style="color: white;">
+                    <option selected style="color: black;" >...</option>
+                    <option style="color: black;">Male</option>
+                    <option style="color: black;">Female</option>
+                    </select>
+                </div>
+                
+                
+                <div class="col-12">
+                    <button type="submit" class="btn rounded-pill main-btn">Sign up</button>
+                </div>
+                </form>
+            <div class="another text-center pt-3">
+                <p class="m-0">Or sign up using</p>
+                <ul class="list-unstyled d-flex justify-content-center gap-2 pt-3 ">
+                    <li><a class="d-block text-light" href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook fa-lg facebook rounded-circle p-2" ></i></a></li>
+                    <li><a class="d-block text-light" href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter fa-lg twitter rounded-circle p-2" ></i></a></li>
+                    <li><a class="d-block text-light" href="https://www.linkedin.com" target="_blank"><i class="fa-brands fa-linkedin fa-lg linkedin rounded-circle p-2" ></i></a></li>
+                    <li><a class="d-block text-light" href="https://www.gmail.com" target="_blank"><i class="fa-brands fa-google fa-lg google rounded-circle p-2" ></i></a></li>
+
+                </a></li>
+                
+                </ul> 
+            </div>
+        </div>
+    </div>
+</div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+</body>
+</html>

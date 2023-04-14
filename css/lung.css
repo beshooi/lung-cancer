@@ -1,0 +1,334 @@
+:root{
+    --dark-color:rgba(11, 11, 52, 0.904);
+    --blue-color:#3385d1;
+    --red-colot: #ff3150;
+    --yekkow-color:#ffc400 ;
+    --sec-color:#eff7fa;
+    --wr-color:#336872;
+    ---wh-color:white;
+}
+body{
+font-family: "Roboto" , sans-serif;    
+}
+
+.dark{
+    --sec-color:black;
+    --wh-color:black;
+}
+.main-btn{
+background-color:var(--blue-color) ; 
+color: var(--sec-color);
+padding: .5rem 1rem;
+}
+.main-btn:hover{
+color: var(--wr-color) !important;
+background-color:var(--sec-color) !important; 
+
+}
+
+.navbar{
+    background-color: var(--sec-color);
+}
+.navbar .nav-link{
+    color: black;
+}
+.navbar .nav-link.active,
+.navbar .nav-link:focus,
+.navbar .nav-link:hover
+{
+    color: var(--wr-color) !important;
+}
+.navbar .nav-link:hover{
+    font-size: 15px;
+}
+.search{
+    border-left: solid 1px var(--blue-color);
+}
+.search svg{
+    color: var(--blue-color);
+}
+.navbar-toggler{
+color: white;
+border: 1px solid white;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+.landing{
+    background-image: url(../photos/5.jpg);
+    background-size:cover;
+    min-height: 1000px
+
+}
+
+
+
+.features-title::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 2px;
+height: 117%;
+background-color: #fff;
+}
+.icon-holder{
+    height: 200px;
+}
+
+.icon-holder svg{
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.icon-holder .number{
+    font-size: 12rem;
+    color: var(--sec-color);
+}
+
+.icon-holder .icon{
+    color: var(--blue-color);
+    font-size: 4rem;
+    transition: .3s;
+}
+.icon-holder .icon:hover{
+
+    font-size: 6rem;
+}
+
+
+/* diagnosis */
+
+.diagnosis{
+    background-color: var(--sec-color);
+}
+.diagnosis .box{
+border: 1px var(--blue-color) solid;
+border-radius: 10px;
+}
+
+.dig-title::after{
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 1px;
+    background-color: var(--wr-color);
+    left: 50%;
+    transform: translate(-50%);
+    }
+    .dig-text span:hover{
+cursor: pointer;
+    }
+.dig-title svg:hover{
+color: red;
+    }
+
+    @media(max-width:416px){
+    .diagnosis .box .dig-text input{
+width: 155px;
+    }
+    }
+/* end ofdiagnosis */
+
+/*services*/
+
+.serv-title::after{
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 1px;
+    background-color: var(--wr-color);
+    left: 50%;
+    transform: translate(-50%);
+    }
+
+    .serv-ph div img:hover{
+        min-width: 110%;
+        position: relative;
+        right: 50px;
+    }
+
+    /*team*/
+    .team-title::after{
+        content: "";
+        position: absolute;
+        width: 100px;
+        height: 1px;
+        background-color: var(--wr-color);
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    .team-ph .p:hover   {
+
+        border-bottom: solid 1px var(--blue-color);
+        transition: .5s;
+    
+    }
+
+/* history*/
+
+.his-title::after{
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 1px;
+    background-color: var(--wr-color);
+    left: 50%;
+    transform: translate(-50%);
+    }
+/* end of his*/
+
+
+/*prof*/
+
+.prof-title::after{
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 1px;
+    background-color: var(--wr-color);
+    left: 50%;
+    transform: translate(-50%);
+    }
+
+    /* end of prof*/
+
+.stuff-title::after{
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 1px;
+    background-color: var(--wr-color);
+    left: 50%;
+    transform: translate(-50%);
+    }
+
+    
+    
+    
+    .footer{
+        background-color: var(--dark-color);
+    }
+
+    .footer span{
+        color: var(--blue-color);
+    }
+
+    .footer .span{
+        color: var(--yekkow-color);
+    }
+    .footer .contact ul svg {
+        width: 20px;
+        height: 20px;
+
+    }
+
+    .footer .facebook{
+        background-color: #1877f2;
+    }
+    .footer .twitter{
+        background-color: #1da1f2;
+    }
+    .footer .linkedin{
+        background-color: #0077b5;
+    }
+    .footer .google{
+        background-color: #ff0000;
+    }
+    .footer-fo input[type="text"] { border: none; border-bottom: 1px solid white; border-radius: 0; color: white;} 
+    .footer-fo input[type="text"]:focus {border: none; outline: none; } 
+    .footer-fo input[type="text"]::placeholder { color: white; }
+
+    .footer-fo input[type="number"] { border: none; border-bottom: 1px solid white; border-radius: 0;color: white; } 
+    .footer-fo input[type="number"]:focus {border: none; outline: none; } 
+    .footer-fo input[type="number"]::placeholder { color: white; }
+
+    .footer-fo input[type="email"] { border: none; border-bottom: 1px solid white; border-radius: 0;color: white; } 
+    .footer-fo input[type="email"]:focus {border: none; outline: none; } 
+    .footer-fo input[type="email"]::placeholder { color: white; }
+
+    .te-area textarea{ border: none; border-bottom: 1px solid white; border-radius: 0;color: white; } 
+    .te-area textarea:focus {border: none; outline: none; } 
+    .te-area textarea::placeholder { color: white; }
+
+   
+
+    .a7aa{
+        height: 50vh;
+        background-color: var(--dark-color);
+        color: white;
+    }
+
+    .one{
+        padding-left: 50px;
+    }
+#info{
+    width: 300px;
+    height: 500px;
+    border: 1px red solid;
+}
+
+
+
+
+    #jiji{
+        display: none;
+    max-width: 300px;
+    }
+
+
+
+    /*onchange*/
+.colorchange{
+    width: 100px;
+    height: fit-content;
+    background-color: white;
+    position: fixed;
+    left: 0;
+    border-radius: 0 10px 10px 0;
+    display: none;
+    }
+.colorchange ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0;
+}
+
+.colorchange ul li{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+.colorchange ul  :first-child{
+    background-color: #3385d1;
+
+    }
+
+    .colorchange ul  :nth-child(2){
+        background-color: #0db36b;
+        }
+
+        .colorchange ul  :nth-child(3){
+            background-color: #cb1c1c;
+        }
+        
+        canvas{
+            position: absolute;
+            top: 0;
+            z-index: 0;
+            height: 1000px !important;
+        }
+        
+
+        @media (max-width:992px) {
+            .inc-num{
+                height: 600px !important;
+            }
+            .serv-ph{
+                text-align: center !important;
+}
+        }

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@1&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@500&family=Mochiy+Pop+One&family=Nunito:wght@200;400&family=Qwitcher+Grypen:wght@700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/all.min.css">
+
+    <link rel="stylesheet" href="css/login.css">
+
+    <title>log in</title>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg  " style="background-color: var(--sec-color);">
+    <div class="container ">
+        <div class="logo d-flex gap-2 justify-content-start align-items-center" >
+            <i class="zoom fa-solid fa-lungs-virus  fs-1" style="color: var(--wr-color);"></i>
+    
+            <a class="navbar-brand col-1 " href="#" style="width: fit-content;">
+            <p class="fw-bold  " style="margin: 0; color: var(--blue-color);">Lung Cancer Prediction</p>      </a>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main" aria-controls="main" aria-expanded="false" aria-label="Toggle navigation" style="    color: black;border: 1px solid black; box-shadow: none;">
+            <i class="fa-solid fa-bars"></i>      </button>
+        <div class="collapse navbar-collapse " id="main">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item ">
+            <a class="nav-link p-2 p-lg-3  " aria-current="page" href="./lung.html">Home</a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link p-2 p-lg-3  " aria-current="page" href="./lung.html">services</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link p-2 p-lg-3" href="./lung.html">Team</a>
+    
+            </li>
+            <li class="nav-item">
+            <a class="nav-link p-2 p-lg-3" href="./lung.html">Diagnosis</a>
+
+            </li>
+            <li class="nav-item">
+            <a class="nav-link p-2 p-lg-3" href="./lung.html">History</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link p-2 p-lg-3" href="./lung.html">Profile</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link p-2 p-lg-3" href="./lung.html">about</a>
+
+
+            </li>
+            <li class="nav-item">
+            <a class="nav-link p-2 p-lg-3" href="./lung.html">contact</a>
+            </li>
+        </ul>
+        <div class="search ps-3 pe-3 d-none d-lg-block">
+            <i class="fa-brands fa-searchengin"></i>
+        </div>
+        <a href="./login.html" class="btn rounded-pill main-btn  ">login</a>
+        </div>
+    </div>
+    </nav>
+    
+<div class="login p-5 w-100"style="height:100vh;background-color:var(--sec-color)">
+    <div class="colorchange " id="colorchange" style="z-index: 1000; bottom: 50%;">
+        <div class="night d-flex gap-2 my-1">
+            <button class="btn btn-light ms-1  " style="display:none;position: relative;left:25%;"><i class="fa-regular fa-sun"></i></button>
+
+            <button class="btn btn-dark "style="margin: auto;" ><i class="fa-regular fa-moon vip"></i></button>
+    </div>
+    </div>
+    <div class="gear position-fixed" id="gear"  style="left: 0;z-index: 1000;bottom: 50%;">
+    <i class="fa-solid fa-gears" ></i>
+    </div>
+    <div class=" w-75 mx-auto" style="height:90vh;">
+        <div class="row b-form " style="height: 75vh;background-color: white;    ;border-radius: 20px;">
+<div class="col-lg-6 p-0">
+    <img src="./photos/1.jpg" class="img-fluid" alt="" style="height: 75vh; border-radius: 20px 0 0 20px;">
+</div>
+<div class="col-lg-6 " style="padding: 50px;">
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        
+        <button type="submit" class="btn btn-primary">log in</button>
+        <div class="sign text-center pt-4">
+            <p class="m-0" style="color: var(--wr-color);">Doesn’t have account?</p>
+            <a href="./signup.html" style="text-decoration: none; ">Sign up</a>
+        </div>
+</div>
+        </div>
+    </div>
+</div>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="log.js" type="module"></script>
+</body>
+</html>

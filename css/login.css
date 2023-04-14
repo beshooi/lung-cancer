@@ -1,0 +1,137 @@
+:root{
+    --dark-color:rgba(11, 11, 52, 0.904);
+    --blue-color:#3385d1;
+    --red-colot: #ff3150;
+    --yekkow-color:#ffc400 ;
+    --sec-color:#eff7fa;
+    --wr-color:#336872;
+}
+.dark{
+    --sec-color:black;
+    --wh-color:black;
+}
+
+.main-btn{
+    background-color:var(--blue-color) ; 
+    color: var(--sec-color);
+    padding: .5rem 1rem;
+    }
+    .main-btn:hover{
+    color: var(--wr-color) !important;
+    background-color:var(--sec-color) !important; 
+    
+    }
+
+
+.navbar .nav-link.active,
+.navbar .nav-link:focus,
+.navbar .nav-link:hover
+{
+    color: var(--wr-color) !important;
+}
+@media (max-width:559px) {
+.login :nth-child(3){
+   width: 100% !important;
+   }
+}
+@media (max-width:992px) {
+     img{
+    height: 200px !important;
+    border-radius: 20px 20px 0 0 !important;
+    width: inherit;
+    }
+}
+@media (max-width:559px) {
+    .b-form{
+        height: 85vh !important;
+    }
+    .b-form :nth-child(2){
+   padding: 5px !important;
+   }
+}
+
+.username input[type="text"] { border: none; border-bottom: 1px solid black; border-radius: 0; } 
+.username input[type="text"]:focus {border: none; outline: none; } 
+.username ::placeholder { color: black; }
+
+
+.password input[type="password"] { border: none; border-bottom: 1px solid black; border-radius: 0; } 
+.password input[type="password"]:focus {border: none; outline: none; } 
+.password ::placeholder { color: black; }
+
+
+.sign-up input[type="text"] { border: none; border-bottom: 1px solid black; border-radius: 0; } 
+.sign-up input[type="text"]:focus {border: none; outline: none; } 
+.sign-up ::placeholder { color: transparent; }
+
+.sign-up input[type="email"] { border: none; border-bottom: 1px solid black; border-radius: 0; } 
+.sign-up input[type="email"]:focus {border: none; outline: none; } 
+.sign-up ::placeholder { color: transparent; }
+
+.sign-up input[type="password"] { border: none; border-bottom: 1px solid black; border-radius: 0; } 
+.sign-up input[type="password"]:focus {border: none; outline: none; } 
+.sign-up ::placeholder { color: transparent; }
+
+.sign-up select { border: none; border-bottom: 1px solid black; border-radius: 0; } 
+.sign-up select:focus {border: none; outline: none; } 
+.sign-up ::placeholder { color: transparent; }
+
+
+.another .facebook{
+    background-color: #1877f2;
+}
+.another .twitter{
+    background-color: #1da1f2;
+}
+.another .linkedin{
+    background-color: #0077b5;
+}
+.another .google{
+    background-color: #ff0000;
+}
+
+
+    /*onchange*/
+    .colorchange{
+        width: 100px;
+        height: fit-content;
+        background-color: white;
+        position: fixed;
+        left: 0;
+        border-radius: 0 10px 10px 0;
+        display: none;
+        }
+    .colorchange ul{
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0;
+    }
+    
+    .colorchange ul li{
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+    }
+    
+    .colorchange ul  :first-child{
+        background-color: #3385d1;
+    
+        }
+    
+        .colorchange ul  :nth-child(2){
+            background-color: #0db36b;
+            }
+    
+            .colorchange ul  :nth-child(3){
+                background-color: #cb1c1c;
+            }
+
+
+            .signup{
+                background-image: url(../photos/5.jpg);
+                background-size:cover;
+                min-height: 1000px
+            
+            }

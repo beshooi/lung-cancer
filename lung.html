@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@1&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@500&family=Mochiy+Pop+One&family=Nunito:wght@200;400&family=Qwitcher+Grypen:wght@700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/all.min.css">
+
+    <link rel="stylesheet" href="css/lung.css">
+
+    <title>lung cancer</title>
+    
+
+</head>
+<body style="background-color: var(--wh-color);">
+
+  <nav class="navbar navbar-expand-lg sticky-top " >
+    <div class="container ">
+      <div class="logo d-flex gap-2 justify-content-start align-items-center" >
+        <i class="zoom fa-solid fa-lungs-virus  fs-1" style="color: var(--wr-color);"></i>
+
+        <a class="navbar-brand col-1 " href="#" style="width: fit-content;" >
+        <p class="fw-bold  " style="color: var(--blue-color);margin: 0;" id="lungcancer" >Lung Cancer Prediction</p>      </a>
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main" aria-controls="main" aria-expanded="false" aria-label="Toggle navigation" style="    color: black;border: 1px solid black;">
+        <i class="fa-solid fa-bars"></i>      </button>
+      <div class="collapse navbar-collapse " id="main">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item ">
+            <a class="nav-link p-2 p-lg-3 active " aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link p-2 p-lg-3  " aria-current="page" href="#services">services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link p-2 p-lg-3" href="#Team">Team</a>
+
+          </li>
+          <li class="nav-item">
+            <a class="nav-link p-2 p-lg-3" href="#diagnosis">Diagnosis</a>
+
+          </li>
+          <li class="nav-item">
+            <a class="nav-link p-2 p-lg-3" href="#history">History</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link p-2 p-lg-3" href="#profile">Profile</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link p-2 p-lg-3" href="#stuff">about</a>
+
+
+          </li>
+          <li class="nav-item">
+            <a class="nav-link p-2 p-lg-3" href="#contact">contact</a>
+          </li>
+        </ul>
+        <div class="search ps-3 pe-3 d-none d-lg-block" style="border-left: var(--wr-color) solid 1px;">
+          <i class="fa-brands fa-searchengin" style="color: var(--wr-color);"></i>
+        </div>
+        <a href="./login.html" class="btn rounded-pill main-btn  " id="login">login</a>
+      </div>
+    </div>
+  </nav>
+
+  <div id="particles-js" style="width: 100%;height: 1000px;">
+
+
+
+
+
+<div class="landing d-flex justify-content-center align-items-center" id="landing">
+  <div class="colorchange " id="colorchange" style="z-index: 1000;top: 50%;">
+    <ul class="lists">
+      <li class="m-2" data-color="#3385d1"></li>
+      <li class="m-2" data-color="#0db36b"></li>
+      <li class="m-2" data-color="#cb1c1c"></li>
+    </ul>
+    <div class="night d-flex gap-2 mb-1" style="z-index: 1000;">
+    <button class="btn btn-light ms-1  " style="display:none;position: relative;left:25%;"><i class="fa-regular fa-sun"></i></button>
+
+    <button class="btn btn-dark "style="margin: auto;" ><i class="fa-regular fa-moon vip"></i></button>
+  </div>
+  </div>
+  <div class="gear position-fixed" id="gear"  style="left: 0; z-index: 1000; top: 50%;">
+    <i class="fa-solid fa-gears" ></i>
+  </div>
+  <div class="text-center text-light " style="z-index: 1000; height: 250px;">
+    
+    <h1 >LUNG CANCER PREDICTION </h1>
+    
+    <p class="fs-5 mb-5 "  id="element"> </p>
+    <a href="#" class="btn  rounded-pill main-btn  " id="getstart">Get started</a>
+
+  </div>
+</div>
+</div>
+
+<div class="services text-center pt-5 pb-5" id="services" style="background-color: var(--sec-color);">
+  <div class="container">
+    <div class="serv-title title pb-4" id="serv-title">
+      <i class="zoom fa-solid fa-lungs-virus  fs-1" style="color: var(--wr-color);"></i>
+      <h2 class="pb-3">Services
+      </h2>
+    </div>
+    <div class="serv-caption row pt-4 pb-3">
+      <div class="col-lg-4">
+        <h2 style="text-align: start;">We Value your Health and your Time</h2>
+
+      </div>
+     
+    <div class="col-lg-8">
+      <p style="text-align: start;">Welcome to Lung Cancer Prediction a full-service diagnostic center and medical care clinic
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde similique quam ratione tenetur maxime quia deserunt, cumque vitae repudiandae officia dolor magnam minima voluptas mollitia sint beatae ut quo laborum.
+      </p>
+    </div>
+  </div>
+  <div class="serv-ph row text-start pt-5 pb-5">
+    <div class="col-lg-4 px-0">
+<img src="./photos/image_01-5.jpg" class="img-fluid" alt="">
+<div class="serv-text p-4">
+  <h5 class="pb-2">HEALTHCARE CENTER</h5>
+<p>Our goal to provide a patient-centered medical home for all patient
+</p>
+</div>
+    </div>
+    <div class="col-lg-4 px-0">
+      <img src="./photos/image_02-5.jpg" class="img-fluid" alt="">
+      <div class="serv-text p-4">
+        <h5 class="pb-2">IMMEDIATE CARE</h5>
+      <p>Effective and affordable treatment for non-life threatening illnesses
+      </p>
+      </div>
+          </div>
+          <div class="col-lg-4 px-0">
+            <img src="./photos/image_03-2.jpg" class="img-fluid" alt="">
+            <div class="serv-text p-4">
+              <h5 class="pb-2">DIAGNOSTIC CENTER</h5>
+            <p>Offers a wide array of reliable lab and diagnostic imaging services
+            </p>
+            </div>
+                </div>
+  
+  </div>
+ 
+  </div>
+</div>
+<div class="our-team text-center pt-5 pb-5" id="Team" >
+  <div class="container">
+    <div class="team-title title pb-4" id="serv-title">
+      <i class="zoom fa-solid fa-lungs-virus  fs-1" style="color: var(--wr-color);"></i>
+      <h2 class="pb-3">Our Team
+      </h2>
+    </div>
+    <p>Is it the people who make medicenter what it is endwe are extremely proud of the achievement of our staff.We all worktogether to help our patientthrough recovery , providing the best possible care</p>
+  <div class="team-ph row">
+    <div class="col-lg-3">
+<div class="team-info xx">
+  <img src="./photos/d1.jpg" class="img-fluid" alt="" style="width: 100%;">
+  <h5 class="pt-3">Ann Blyumin</h5>
+  <p>Pediatric clinic</p>
+</div> 
+<div class="p">
+<p >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus sequi praesentium accusantium soluta error odio! </p>     
+</div>    
+</div>
+    <div class="col-lg-3">
+      <div class="team-info">
+        <img src="./photos/d2.jpg" class="img-fluid" alt="" style="width: 100%;">
+        <h5 class="pt-3">Clare Mitchell, prof</h5>
+        <p>Pediatric clinic</p>
+      </div> 
+      <div class="p">
+      <p >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus sequi praesentium accusantium soluta error odio! </p>     
+    </div>      
+    </div>
+          <div class="col-lg-3">
+            <div class="team-info">
+              <img src="./photos/d3.jpg" class="img-fluid" alt="" style="width: 100%;">
+              <h5 class="pt-3"> Earlene Milone, prof</h5>
+              <p> Laryngological Clinic</p>
+            </div>
+            <div class="p">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus sequi praesentium accusantium soluta error odio! </p>     
+          </div>       
+          </div>
+                <div class="col-lg-3">
+                  <div class="team-info">
+                    <img src="./photos/manager.jpg" class="img-fluid" alt="" style="width: 100%;">
+                    <h5 class="pt-3">Grita Midler</h5>
+                    <p>Management</p>
+                  </div> 
+                  <div class="p">
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus sequi praesentium accusantium soluta error odio! </p>     
+                </div>      
+                </div>
+  </div>
+  </div>
+</div>
+
+<div class="inc-num " style="height: 300px; background-image: url(./photos/benefits.jpg);background-size: cover;">
+  <div class="container m-auto " style="height: 300px;">
+    <div class="row position-relative  " style="top: 40%;">
+      <div class="col-lg-3 d-flex flex-column">
+        <i class="fa-solid fa-hospital fs-1" style="color: white;"></i>
+                <div class="inc-text d-flex flex-column pt-3" style="color: white;">
+          <h5 class="m-auto pb-2" data-goal="1035">0</h5>
+          <p class="m-auto">Hospitalization</p>
+        </div>
+      </div>
+      <div class="col-lg-3 d-flex flex-column">
+        <i class="fa-solid fa-viruses fs-1" style="color: white;"></i>
+        <div class="inc-text d-flex flex-column pt-3" style="color: white;">
+          <h5 class="m-auto pb-2"data-goal="1394">0</h5>
+          <p class="m-auto">Ambulatory Cases</p>
+        </div>
+      </div>
+      <div class="col-lg-3 d-flex flex-column">
+        <i class="fa-solid fa-user-nurse fs-1" style="color: white;"></i>
+                <div class="inc-text d-flex flex-column pt-3" style="color: white;">
+          <h5 class="m-auto pb-2" data-goal="1113">0</h5>
+          <p class="m-auto">Employed Doctors</p>
+        </div>
+      </div>
+      <div class="col-lg-3 d-flex flex-column">
+        <i class="fa-solid fa-vial-virus fs-1" style="color: white;"></i>
+        <div class="inc-text d-flex flex-column pt-3" style="color: white;">
+          <h5 class="m-auto pb-2"data-goal="1257">0</h5>
+          <p class="m-auto">Laboratory tests</p>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+
+<div class="diagnosis text-center pt-5 pb-5" id="diagnosis">
+  <div class="container " style="max-width: 700px;">
+    <div class="dig-title title pb-4" id="dig-title">
+      <i class="zoom fa-solid fa-lungs-virus  fs-1" style="color: var(--wr-color);"></i>
+      <h2 class="pb-3">Diagnosis
+      </h2>
+    </div>
+  <div class="box m-2 p-4  d-flex flex-column justify-content-center align-items-center position-relative" id="boxx" style="height: 500px; background-color: var(--sec-color); ">
+    <i class="fa-solid fa-images fs-1 ico" style="color: var(--wr-color);"></i>
+    <div class="dig-text pt-3 position-absolute" style="left: 10px; bottom: 10px;">  
+      <input type="file" id="upl"  multiple accept="image/*" class="btn rounded-pill main-btn  "  >
+
+    </div>
+    <img src="" alt="Image Preview" id="jiji" class="img-fluid" style=" width: -webkit-fill-available;position: absolute;top: 40px;height: 390px;" >
+  </div>
+<button  class="btn  rounded-pill main-btn pb" id="check"> Check</button>
+  </div>
+  <div class="container">
+    <div class="result pt-5 text-start "style="min-height: 500px;">
+<p>Result of diagnosis :</p>
+<table class="table w-100 mx-auto text-center">
+  <thead>
+      <th>id</th>
+      <th>img</th>
+      <th>dis</th>
+      <th>delete</th>
+  </thead>
+  <tbody id="TableBody">
+  </tbody>
+</table>
+    </div>
+  </div>
+</div>
+
+<div class="history text-center pt-4 pb-5 "style="min-height: 500px;" id="history">
+  <div class="container">
+    <div class="his-title title ">
+      <i class="fa-solid fa-lungs-virus  fs-1" style="color: var(--wr-color);"></i>
+      <h2 class="pb-3">History
+      </h2>
+
+    </div>
+    <p class="text-start pt-4 his">History of results:</p>
+    <table class="table " style="background-color:white;" id="table">
+        <tr>
+          <th scope="col">Id</th>
+          <th scope="col">Img</th>
+          <th scope="col">Dis</th>
+          <th scope="col">Delete</th>
+        </tr>
+      </thead>
+      <tbody id="TableBodyy">
+        <tr>
+          <th scope="row">1</th>
+          <td><img src="./photos/can.jpeg" alt="" class="img-fluid" style="width: 40px;"></td>
+          <td>cancer</td>
+          <td><button class="btn rounded-pill main-btn  " style="background-color: rgba(255, 0, 0, 0.84);" >Delete</button></td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td><img src="./photos/can.jpeg" alt="" class="img-fluid" style="width: 40px;"></td>
+          <td>cancer</td>
+          <td><button class="btn rounded-pill main-btn  " style="background-color: rgba(255, 0, 0, 0.84);">Delete</button></td>
+        </tr>
+       
+      </tbody>
+    </table>
+    
+
+
+  </div>
+</div>
+
+<div class="profile text-center pt-5 pb-5" id="profile" style="background-color: var(--sec-color); ">
+  <div class="container">
+    <div class="prof-title title pb-4">
+      <i class="fa-solid fa-lungs-virus  fs-1" style="color: var(--wr-color);"></i>
+      <h2 class="pb-3">Profile
+      </h2>
+    </div>
+    <div class="user pt-5">
+      <i class="fa-regular fa-user fs-1 pb-3" id="svg_1"  ></i>
+      <p>Patient no.1</p>
+      <p>Patient@gmail.com</p>
+      <p>ramsis st</p>
+      <p>cairo, Egypt</p>
+      <p>Male</p>
+
+<button class="btn  rounded-pill main-btn " id="logout">log out</button>
+
+
+    </div>
+
+  </div>
+</div>
+
+<div class="stuff text-center pb-4" id="stuff" >
+  <div class="container">
+    <div class="stuff-title title pt-5 mb-5 position-relative">
+      <i class="fa-solid fa-lungs-virus  fs-1" style="color: var(--wr-color);"></i>
+      <h2 class="pb-3">About Lung Cancer
+      </h2>
+      
+    </div>
+  <div class="row  ">
+    <div class="col-lg-5 col-sm-12 ">
+      <img src="./photos/lung.jpg" class="img-fluid dar " style="height: calc(100%);" alt="">
+    </div>
+    <div class="ab-title col-lg-7 col-sm-12 text-md-start mb-5">
+    
+      <p>Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+
+        Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Pellentesque in ipsum id orci porta dapibus. Proin eget tortor risus. Donec sollicitudin molestie malesuada.</p>
+        <div class="about">
+          <div class="row align-items-center ps-3 pt-3 pb-3 ">
+            <div class="col-lg-1">
+              <i class="fa-solid fa-hand-holding-medical fs-4" ></i>
+                </div>
+            <div class="col-lg-11 pt-2 ab_ut ">
+              <h2 class="fs-5" style="color: var(--wr-color);">What does general health mean?</h2>
+              <p style="font-size: 14px;">The state of health of the body as a whole, or of a community</p>
+            </div>
+          </div>
+          <div class="row align-items-center ps-3 pt-3 pb-3 ">
+            <div class="col-lg-1">
+              <i class="fa-solid fa-lungs fs-4  " ></i>                </div>
+            <div class="col-lg-11 pt-2 ab_ut">
+              <h2 class="fs-5" style="color: var(--wr-color);">What are 5 types of health?</h2>
+              <p style="font-size: 14px;">There are 5 main aspectsof personal health: physical, emotional, social, spiritual andintellectual. </p>
+            </div>
+          </div>
+          <div class="row align-items-center ps-3 pt-3 pb-3 ">
+            <div class="col-lg-1">
+              <i class="fa-solid fa-atom fs-4"  ></i>           </div>
+            <div class="col-lg-11 pt-2 ab_ut">
+              <h2 class="fs-5" style="color: var(--wr-color);">  What is the importance of health?
+              </h2>
+              <p style="font-size: 14px;">  Being healthyshould be part of ouroverall lifestyle. living a healthy lifestyle can help prevent chronic diseases and long-term illnesses </p>
+            </p>
+            </div>
+          </div>
+          
+        </div>
+    </div>
+    
+  </div>
+  
+  </div>
+</div>
+
+<div class="footer pt-5 pb-5 text-white-50 text-center text-md-start "id="contact">
+  <div class="container">
+    <div class="contact pb-5 fw-bold fs-1">
+      <p>Contact us</p>
+    </div>
+    <div class="row">
+    <div class="mb-4 col-lg-6 footer-fo">
+      <label for="exampleFormControlInput1" class="form-label">Name</label>
+      <input type="text" class="form-control  bg-transparent mb-3" id="exampleFormControlInput1" placeholder="your name" >
+      <label for="exampleFormControlInput1" class="form-label ph ">Phone</label>
+      <input type="email" class="form-control bg-transparent mb-3" id="exampleFormControlInput1" placeholder="your phone" >
+      <label for="exampleFormControlInput1" class="form-label em">Email address</label>
+      <input type="email" class="form-control bg-transparent" id="exampleFormControlInput1" placeholder="name@example.com" >
+    </div>
+    <div class="col-lg-6 position-relative te-area">
+      <label for="floatingTextarea2">subject</label>
+
+        <textarea class="form-control mt-2 bg-transparent"  placeholder="" id="floatingTextarea2" style="height: 100px; color: white;"></textarea>
+    
+        <button class="btn  rounded-pill main-btn mt-2" >send</button>
+
+        <ul class="list-unstyled d-flex justify-content-center gap-3   pt-4 ">
+          <li><a class="d-block text-light" href=""><i class="fa-brands fa-facebook fa-lg facebook rounded-circle p-2"></i></a></li>
+          <li><a class="d-block text-light" href=""><i class="fa-brands fa-twitter fa-lg twitter rounded-circle p-2"></i></a></li>
+          <li><a class="d-block text-light" href=""><i class="fa-brands fa-linkedin fa-lg linkedin rounded-circle p-2"></i></a></li>
+          <li><a class="d-block text-light" href=""><i class="fa-brands fa-google fa-lg google rounded-circle p-2" ></i></a></li>
+        
+        </ul> 
+    </div>
+  </div>
+  </div>
+</div>
+<script src="./particles.js" ></script>
+<script src="./app.js" ></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/all.min.js"></script>
+    <script src="mainn.js" type="module"></script>
+    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+
+
+</body>
+</html>
